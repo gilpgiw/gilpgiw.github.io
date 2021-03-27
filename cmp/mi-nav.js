@@ -219,21 +219,40 @@ export class MiNav extends HTMLElement {
         <li>
           <details>
             <summary>
+              <h3>Formularios</h3>
+            </summary>
+            <ol>
+              <li>
+                <p>
+                  <a href="/h_formularios/1_recomendaciones.html">Recomendaciones</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/h_formularios/2_formulario.html">Formulario</a>
+                </p>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
               <h3>Juegos con Emojis</h3>
             </summary>
             <ol>
-              <li><p><a href="/h_juegos/1_sprites.html">Sprites</a></p></li>
-              <li><p><a href="/h_juegos/2_anima_horizontal.html">Animación horizontal</a></p></li>
-              <li><p><a href="/h_juegos/3_anima_recta.html">Animación recta</a></p></li>
-              <li><p><a href="/h_juegos/4_ondula.html">Ondula</a></p></li>
-              <li><p><a href="/h_juegos/5_gira.html">Gira</a></p></li>
-              <li><p><a href="/h_juegos/6_mueve_botones.html">Mueve con botones</a></p></li>
-              <li><p><a href="/h_juegos/7_choques.html">Detecta colisiones</a></p></li>
-              <li><p><a href="/h_juegos/8_sonrie.html">Haz algo si chocas</a></p></li>
-              <li><p><a href="/h_juegos/9_mueve_aleatorio.html">Que se mueva como quiera</a></p></li>
-              <li><p><a href="/h_juegos/10_custom.html">Custom elements</a></p></li>
-              <li><p><a href="/h_juegos/11_asociaciones.html">Asociaciones</a></p></li>
-              <li><p><a href="/h_juegos/12_polimorfismo.html">Polimorfismo</a></p></li>
+              <li><p><a href="/i_juegos/1_sprites.html">Sprites</a></p></li>
+              <li><p><a href="/i_juegos/2_anima_horizontal.html">Animación horizontal</a></p></li>
+              <li><p><a href="/i_juegos/3_anima_recta.html">Animación recta</a></p></li>
+              <li><p><a href="/i_juegos/4_ondula.html">Ondula</a></p></li>
+              <li><p><a href="/i_juegos/5_gira.html">Gira</a></p></li>
+              <li><p><a href="/i_juegos/6_mueve_botones.html">Mueve con botones</a></p></li>
+              <li><p><a href="/i_juegos/7_choques.html">Detecta colisiones</a></p></li>
+              <li><p><a href="/i_juegos/8_sonrie.html">Haz algo si chocas</a></p></li>
+              <li><p><a href="/i_juegos/9_mueve_aleatorio.html">Que se mueva como quiera</a></p></li>
+              <li><p><a href="/i_juegos/10_custom.html">Custom elements</a></p></li>
+              <li><p><a href="/i_juegos/11_asociaciones.html">Asociaciones</a></p></li>
+              <li><p><a href="/i_juegos/12_polimorfismo.html">Polimorfismo</a></p></li>
             </ol>
           </details>
         </li>
@@ -243,27 +262,8 @@ export class MiNav extends HTMLElement {
               <h3>Adornos</h3>
             </summary>
             <ol>
-              <li><p><a href="/i_adornos/1_recta.html">Adorno en recta</a></p></li>
-              <li><p><a href="/i_adornos/2_espiral.html">Adorno en espiral</a></p></li>
-            </ol>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Formularios</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/j_formularios/1_recomendaciones.html">Recomendaciones</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/j_formularios/2_formulario.html">Formulario</a>
-                </p>
-              </li>
+              <li><p><a href="/j_adornos/1_recta.html">Adorno horizontal</a></p></li>
+              <li><p><a href="/j_adornos/2_espiral.html">Adorno en espiral</a></p></li>
             </ol>
           </details>
         </li>
