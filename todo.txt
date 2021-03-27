@@ -1,5 +1,6 @@
-1. En d_css integrar transparencia a los colores.
-2. Se seleccionaron las páginas; falta terminar de dar formato a todo.
+1. En d_css modificar el ejemplo para usar colores transparentes.
+2. Partir el capítulo c_html en 2 e incluir secciones con los títulos.
+3. Juntar las páginas de explicación con las de ejemlo.
 
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt

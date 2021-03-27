@@ -1,6 +1,6 @@
 {
-    "short_name": "ijs",
-    "name": "Introducción a JavaScript",
+    "short_name": "iw",
+    "name": "Introducción a programación Web",
     "start_url": "/index.html",
     "display": "standalone",
     "theme_color": "#ffffff",
