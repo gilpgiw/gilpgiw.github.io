@@ -1,0 +1,45 @@
+/*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
+section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+}
+
+section pre {
+  margin: 0;
+}
+
+samp {
+  font-weight: bold;
+}
+
+.activo {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  vertical-align: top;
+  background-color: var(--colSecundario);
+  border: 1px solid var(--colSecundario);
+}
+
+.numero-1 {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  color: var(--colStack1);
+  border: 1px solid var(--colStack1);
+}
+
+.frame {
+  font-family: var(--fontMono);
+  border-collapse: collapse;
+}
+
+.frame,
+.frame th,
+.frame td {
+  border: thin solid;
+}
+
+.frame th,
+.frame td {
+  padding: 0.4rem;
+}
