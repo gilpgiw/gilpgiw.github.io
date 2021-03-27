@@ -16,109 +16,143 @@ export class MiNav extends HTMLElement {
         <li>
           <details>
             <summary>
-              <h3>Fundamentos</h3>
+              <h3>Introducción a HTML5</h3>
             </summary>
             <ol>
+              <li><p><a href="/c_html/1_SGML.html">SGML</a></p></li>
+              <li>
+                <p><a href="/c_html/2_comentarios.html">Comentarios</a></p>
+              </li>
+              <li><p><a href="/c_html/3_doctype.html">DOCTYPE</a></p></li>
+              <li><p><a href="/c_html/4_elementos.html">Elementos</a></p></li>
+              <li><p><a href="/c_html/5_atributos.html">Atributos</a></p></li>
               <li>
                 <p>
-                  <a href="/c_fundamentos/1_proceso.html">Proceso de
-                    información</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/c_fundamentos/2_algoritmo.html">Algoritmo</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/3_diagrama.html">Diagrama de flujo</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/4_pseudocodigo.html">Pseudocódigo</a>
+                  <a href="/c_html/6_con_contenido.html">Elementos con
+                    contenido</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/c_fundamentos/5_lenguaje.html">Lenguaje de
-                    programación</a>
+                  <a href="/c_html/7_sin_contenido.html">Elementos sin
+                    contenido</a>
                 </p>
               </li>
               <li>
-                <p><a href="/c_fundamentos/6_resumen.html">Resumen</a></p>
+                <p><a href="/c_html/8_padres.html">Elementos padres</a></p>
               </li>
+              <li><p><a href="/c_html/9_hijos.html">Elementos hijos</a></p></li>
+              <li>
+                <p>
+                  <a href="/c_html/10_html.html">El elemento
+                    <strong>html</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/11_head.html">El elemento
+                    <strong>head</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/12_codificacion.html">Codificación de
+                    caracteres</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/13_viewport.html">El metadato
+                    <strong>viewport</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/14_title.html">El elemento
+                    <strong>title</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/15_body.html">El elemento
+                    <strong>body</strong></a>
+                </p>
+              </li>
+              <li>
+                <p><a href="/c_html/16_fraseo.html">Elementos de fraseo</a></p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/17_h1.html">El elemento
+                    <strong>h1</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/18_p.html">El elemento <strong>p</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/19_cierran_p.html">Elementos que cierran
+                    <strong>p</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/20_footer.html">El elemento
+                    <strong>footer</strong></a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/c_html/21_referencias.html">Referencias de
+                    caracteres</a>
+                </p>
+              </li>
+              <li><p><a href="/c_html/22_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>
         <li>
           <details>
             <summary>
-              <h3>Introducción a JavaScript</h3>
+              <h3>Introducción a CSS3</h3>
             </summary>
             <ol>
-              <li>
-                <p><a href="/d_js/1_js.html">JavaScript</a></p>
-              </li>
-              <li>
-                <p><a href="/d_js/2_textos.html">Textos</a></p>
-              </li>
+              <li><p><a href="1_CSS.html">CSS</a></p></li>
               <li>
                 <p>
-                  <a href="/d_js/3_string.html">El tipo
-                    <strong>string</strong></a>
+                  <a href="2_style.html">El Elemento <strong>style</strong></a>
+                </p>
+              </li>
+              <li><p><a href="3_comentarios.html">Comentarios</a></p></li>
+              <li><p><a href="4_reglas.html">Reglas de estilo</a></p></li>
+              <li><p><a href="5_selectores.html">Selector de tipo</a></p></li>
+              <li><p><a href="6_propiedades.html">Propiedades</a></p></li>
+              <li><p><a href="7_fonts.html">Fonts</a></p></li>
+              <li>
+                <p>
+                  <a href="8_font-family.html">La propiedad
+                    <strong>font-family</strong></a>
+                </p>
+              </li>
+              <li><p><a href="9_colores.html">Colores en CSS</a></p></li>
+              <li>
+                <p>
+                  <a href="10_color.html">La propiedad
+                    <strong>color</strong></a>
                 </p>
               </li>
               <li>
-                <p><a href="/d_js/4_console.html">console.log</a></p>
+                <p>
+                  <a href="11_background-color.html">La propiedad
+                    <strong>background-color</strong></a>
+                </p>
               </li>
-              <li>
-                <p><a href="/d_js/5_orden.html">Orden de ejecución</a></p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h4>Prueba de escritorio básica</h4>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/index.html">Prueba de escritorio
-                          básica</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/1.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"p"</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/2.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"a"</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/3.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"u"</span>);</code></a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/d_js/7_resumen.html">Resumen</a></p>
-              </li>
+              <li><p><a href="12_fondo.html">Fondo de la página</a></p></li>
+              <li><p><a href="13_custom.html">Custom properties</a></p></li>
+              <li><p><a href="14_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>

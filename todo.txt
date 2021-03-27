@@ -1,7 +1,5 @@
-1. páginas verificada ok hasta h_if_else
-2. El ejemplo del for se puede cambiar para usar en Replit con inspector-client
-3. Faltan las pruebas de escritorio a mano desde g_4_if_true
-4. Faltan los videos de como ejecutar y depurar con Replit y vs code.
+1. En d_css integrar transparencia a los colores.
+2. Se seleccionaron las páginas; falta terminar de dar formato a todo.
 
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt
