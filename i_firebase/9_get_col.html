@@ -17,7 +17,8 @@
       <p>Consultas que <strong>no</strong> se actualizan automáricamente cada
         que hay un cambio.</p>
       <h2>Ejemplo sencillo</h2>
-      <pre><code>const snapshot = await refCol.get();
+      <pre><code
+        class="language-javascript">const snapshot = await refCol.get();
 console.log(snapshot.size);
 snapshot.forEach(document => {
     console.log(document.id);
@@ -26,7 +27,7 @@ snapshot.forEach(document => {
   })
 };</code></pre>
       <h2>Ejemplo ordenado</h2>
-      <pre><code>const snapshot = await refCol.
+      <pre><code class="language-javascript">const snapshot = await refCol.
   orderBy("nombre", "asc").
   get();
 console.log(snapshot.size);
@@ -37,7 +38,7 @@ snapshot.forEach(document => {
   })
 };</code></pre>
       <h2>Ejemplo descendente</h2>
-      <pre><code>const snapshot = await refCol.
+      <pre><code class="language-javascript">const snapshot = await refCol.
   orderBy("nombre", "desc").
   get();
 console.log(snapshot.size);

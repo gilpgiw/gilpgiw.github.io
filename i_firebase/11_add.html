@@ -15,17 +15,17 @@
     <h1>Agregar documentos</h1>
     <div class="marco-lectura">
       <h2>Agregar documento generando id</h2>
-      <pre><code>const data = {
+      <pre><code class="language-javascript">const data = {
   nombre: "pp",
-  dirección: "Su casa"
+  dirección: "su casa"
 };
 const refNuevoDoc = await refCol.add(data);
 console.log(refNuevoDoc.id);</code></pre>
       <h2>Agregar documento cuando se conoce el id</h2>
-      <pre><code>const id ="hhh";
+      <pre><code class="language-javascript">const id ="lkjlkjjl";
 const data = {
-  nombre: "pp",
-  dirección: "Su casa"
+  nombre: "qk"
+  dirección: "mi casa"
 };
 await refCol.doc(id).set(data);</code></pre>
     </div>

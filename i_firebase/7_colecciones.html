@@ -16,55 +16,58 @@
     <div class="marco-lectura">
       <p>Los datos se organizan en coleciones.</p>
       <p>
-        Cada <dfn>colección</dfn> tiene identificadores, de los cuales se
-        cuelgan documentos.
+        Cada <dfn style="color: darkmagenta;">colección</dfn> tiene
+        <dfn style="color: deeppink;">identificadores</dfn>, valores que no se
+        repiten y de los cuales se cuelgan documentos.
       </p>
       <p>
-        Cada <dfn>documento</dfn> tiene <dfn>propiedades</dfn>, cada una de las
+        Cada <dfn style="color: darksalmon;">documento</dfn> tiene
+        <dfn>propiedades</dfn>, cada una de las
         cuales consta de un nombre y un valor.
       </p>
       <h2>Ejemplo de datos en Firestore</h2>
-      <pre><code>{
-  ALumno: {
-    "oipooipo": {
+      <pre><code class="language-javascript">{
+  <span style="color: darkmagenta;">Alumno</span>: {
+    <span style="color: deeppink;">"oipooipo"</span>: <span style="color: darksalmon;">{
       nombre: "pp"
       dirección: "su casa"
-    },
-    "lkjlkjjl": {
+    }</span>,
+    <span style="color: deeppink;">"lkjlkjjl"</span>: <span style="color: darksalmon;">{
       nombre: "qk"
       dirección: "mi casa"
-    },
-    "zlxvcxvv": {
+    }</span>,
+    <span style="color: deeppink;">"zlxvcxvv"</span>: <span style="color: darksalmon;">{
       nombre: "bb"
       dirección: "otra casa"
-    }
+    }</span>
   },
-  Carrera: {
-    "fghfhgfh": {
+  <span style="color: darkmagenta;">Carrera</span>: {
+    <span style="color: deeppink;">"fghfhgfh"</span>: <span style="color: darksalmon;">{
       nombre: "Progra"
-    },
-    "werewrr": {
+    }</span>,
+    <span style="color: deeppink;">"werewrr"</span>: <span style="color: darksalmon;">{
       nombre: "Merca"
-    }
+    }</span>
   }
-  Grupo: {
-    "IC-51M": {
+  <span style="color: darkmagenta;">Grupo</span>: {
+    <span style="color: deeppink;">"IC-51M"</span>: <span style="color: darksalmon;">{
       carrera: "fghfhgfh".
       alumnos: [
         "oipooipo",
         "lkjlkjjl"
       ]
-    },
-    "MN-11V": {
+    }</span>,
+    <span style="color: deeppink;">"MN-11V"</span>: <span style="color: darksalmon;">{
       carrera: "werewrr".
       alumnos: [
         "zlxvcxvv"
       ]
-    }
+    }</span>
   }
 }</code></pre>
       <h2>Obtener la referencia a una colección</h2>
-      <pre><code>const refCol = firestore.collection("");</code></pre>
+      <pre><code
+        class="language-javascript">const refCol = firestore.collection("Alumno");</code></pre>
     </div>
     <mi-footer></mi-footer>
   </layout-cajon>

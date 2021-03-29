@@ -16,7 +16,7 @@
     <div class="marco-lectura">
       <p>Consultas que se actualizan automáricamente cada que hay un cambio.</p>
       <h2>Ejemplo sencillo</h2>
-      <pre><code>refCol.onSnapshot(
+      <pre><code class="language-javascript">refCol.onSnapshot(
   snapshot => {
     console.log(snapshot.size);
     snapshot.forEach(document => {
@@ -27,7 +27,7 @@
   },
   error => console.error(error));</code></pre>
       <h2>Ejemplo ordenado</h2>
-      <pre><code>refCol.
+      <pre><code class="language-javascript">refCol.
   orderBy("nombre", "asc").
   onSnapshot(
   snapshot => {
@@ -40,7 +40,7 @@
   },
   error => console.error(error));</code></pre>
       <h2>Ejemplo descendente</h2>
-      <pre><code>refCol.
+      <pre><code class="language-javascript">refCol.
   orderBy("nombre", "desc").
   onSnapshot(
   snapshot => {
