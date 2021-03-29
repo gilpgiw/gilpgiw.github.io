@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Colecciones</h1>
+    <div class="marco-lectura">
+      <p>Los datos se organizan en coleciones.</p>
+      <p>
+        Cada <dfn>colección</dfn> tiene identificadores, de los cuales se
+        cuelgan documentos.
+      </p>
+      <p>
+        Cada <dfn>documento</dfn> tiene <dfn>propiedades</dfn>, cada una de las
+        cuales consta de un nombre y un valor.
+      </p>
+      <h2>Ejemplo de datos en Firestore</h2>
+      <pre><code>{
+  ALumno: {
+    "oipooipo": {
+      nombre: "pp"
+      dirección: "su casa"
+    },
+    "lkjlkjjl": {
+      nombre: "qk"
+      dirección: "mi casa"
+    },
+    "zlxvcxvv": {
+      nombre: "bb"
+      dirección: "otra casa"
+    }
+  },
+  Carrera: {
+    "fghfhgfh": {
+      nombre: "Progra"
+    },
+    "werewrr": {
+      nombre: "Merca"
+    }
+  }
+  Grupo: {
+    "IC-51M": {
+      carrera: "fghfhgfh".
+      alumnos: [
+        "oipooipo",
+        "lkjlkjjl"
+      ]
+    },
+    "MN-11V": {
+      carrera: "werewrr".
+      alumnos: [
+        "zlxvcxvv"
+      ]
+    }
+  }
+}</code></pre>
+      <h2>Obtener la referencia a una colección</h2>
+      <pre><code>const refCol = firestore.collection("");</code></pre>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

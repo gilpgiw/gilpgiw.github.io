@@ -238,21 +238,101 @@ export class MiNav extends HTMLElement {
         <li>
           <details>
             <summary>
+              <h3>Introducción a Firebase</h3>
+            </summary>
+            <ol>
+              <li><p><a href="/i_firebase/1_intro_fire.html">Introducción a Firebase</a></p></li>
+              <li><p><a href="/i_firebase/2_autenticacion.html">Autenticación</a></p></li>
+              <li><p><a href="/i_firebase/3_authProvider.html">AuthProvider</a></p></li>
+              <li><p><a href="/i_firebase/4_google_auth_provider.html">Google auth provider</a></p></li>
+              <li><p><a href="/i_firebase/5_auth.html">Sistema Auth</a></p></li>
+              <li><p><a href="/i_firebase/6_firestore.html">Sistema Firestore</a></p></li>
+              <li><p><a href="/i_firebase/7_colecciones.html">Colecciones</a></p></li>
+              <li><p><a href="/i_firebase/8_snapshot_col.html">Snapshot de colecciones</a></p></li>
+              <li><p><a href="/i_firebase/9_get_col.html">get de colecciones</a></p></li>
+              <li><p><a href="/i_firebase/10_doc.html">Referencias a documentos</a></p></li>
+              <li><p><a href="/i_firebase/11_add.html">Agregar documentos</a></p></li>
+              <li><p><a href="/i_firebase/12_snapshot_doc.html">Snapshot de documentos</a></p></li>
+              <li><p><a href="/i_firebase/13_get_ref.html">get de documentos</a></p></li>
+              <li><p><a href="/i_firebase/14_set.html">Modificar documentos</a></p></li>
+              <li><p><a href="/i_firebase/15_delete.html">Eliminar documentos</a></p></li>
+              <li><p><a href="/i_firebase/16_storage.html">Sistema Storage</a></p></li>
+              <li><p><a href="/i_firebase/17_arch.html">Referencias a archivos</a></p></li>
+              <li><p><a href="/i_firebase/18_put.html">Subir archivos</a></p></li>
+              <li><p><a href="/i_firebase/19_url_arch.html">URL de descarga</a></p></li>
+              <li><p><a href="/i_firebase/20_del_arch.html">Eliminar archivos</a></p></li>
+            </ol>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <h3>Ejemplo de bases de datos</h3>
+            </summary>
+            <ol>
+              <li><p><a href="/j_bd/1_intro_bd.html">Ejemplo de bases de datos</a></p></li>
+              <li><p><a href="/j_bd/2_casos.html">Casos de Uso</a></p></li>
+              <li><p><a href="/j_bd/3_er.html">Diagrama Entidad Relación</a></p></li>
+              <li><p><a href="/j_bd/4_no_rel.html">Diseño no Relacional</a></p></li>
+              <li><p><a href="/j_bd/5_ejemplo.html">Datos de Ejemplo</a></p></li>
+              <li><p><a href="/j_bd/6_instrucciones.html">Instrucciones</a></p></li>
+              <li><p><a href="/j_bd/7_archivos.html">Archivos</a></p></li>
+              <li><p><a href="/j_bd/8_tipos.html">js/tipos.js</a></p></li>
+              <li><p><a href="/j_bd/9_tiposFire.html">lib/tiposFire.js</a></p></li>
+              <li><p><a href="/j_bd/10_footer.html">cmp/mi-footer.js</a></p></li>
+              <li><p><a href="/j_bd/11_progreso.html">cmp/mi-progreso.js</a></p></li>
+              <li><p><a href="/j_bd/12_util.html">lib/util.js</a></p></li>
+              <li><p><a href="/j_bd/13_init.html">js/init.js</a></p></li>
+              <li><p><a href="/j_bd/14_index.html">index.html</a></p></li>
+              <li><p><a href="/j_bd/15_CtrlSesion.html">js/CtrlSesion.js</a></p></li>
+              <li><p><a href="/j_bd/16_fabrica.html">lib/fabrica.js</a></p></li>
+              <li><p><a href="/j_bd/17_seguridad.html">js/seguridad.js</a></p></li>
+              <li><p><a href="/j_bd/18_nav.html">cmp/mi-nav.js</a></p></li>
+              <li><p><a href="/j_bd/19_chat.html">chat.html</a></p></li>
+              <li><p><a href="/j_bd/20_CtrlChat.html">js/CtrlChat.js</a></p></li>
+              <li><p><a href="/j_bd/21_pasatiempos.html">pasatiempos.html</a></p></li>
+              <li><p><a href="/j_bd/22_CtrlPasatiempos.html">js/CtrlPasatiempos.js</a></p></li>
+              <li><p><a href="/j_bd/23_pasatiempoNuevo.html">pasatiempoNuevo.html</a></p></li>
+              <li><p><a href="/j_bd/24_CtrlPasatiempoNuevo.html">js/CtrlPasatiempoNuevo.js</a></p></li>
+              <li><p><a href="/j_bd/25_navegacion.html">js/navegacion.js</a></p></li>
+              <li><p><a href="/j_bd/26_pasatiempo.html">pasatiempo.html</a></p></li>
+              <li><p><a href="/j_bd/27_CtrlPasatiempo.html">js/CtrlPasatiempo.js</a></p></li>
+              <li><p><a href="/j_bd/28_usuarios.html">usuarios.html</a></p></li>
+              <li><p><a href="/j_bd/29_CtrlUsuarios.html">js/CtrlUsuarios.js</a></p></li>
+              <li><p><a href="/j_bd/30_usuarioNuevo.html">usuarioNuevo.html</a></p></li>
+              <li><p><a href="/j_bd/31_CtrlUsuarioNuevo.html">js/CtrlUsuarioNuevo.js</a></p></li>
+              <li><p><a href="/j_bd/32_usuario.html">usuario.html</a></p></li>
+              <li><p><a href="/j_bd/33_CtrlUsuario.html">js/CtrlUsuario.js</a></p></li>
+              <li><p><a href="/j_bd/34_js_usuarios.html">js/usuarios.js</a></p></li>
+              <li><p><a href="/j_bd/35_storage.html">lib/storage.js</a></p></li>
+              <li><p><a href="/j_bd/36_estilos.html">css/estilos.css</a></p></li>
+              <li><p><a href="/j_bd/37_listas.html">css/listas.css</a></p></li>
+              <li><p><a href="/j_bd/38_footer_css.html">css/mi-footer.css</a></p></li>
+              <li><p><a href="/j_bd/39_nav_css.html">css/mi-nav.css</a></p></li>
+              <li><p><a href="/j_bd/40_favicon.html">favicon.ico</a></p></li>
+              <li><p><a href="/j_bd/41_README.html">README.md</a></p></li>
+              <li><p><a href="/j_bd/42_LICENSE.html">LICENSE</a></p></li>
+            </ol>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
               <h3>Juegos con Emojis</h3>
             </summary>
             <ol>
-              <li><p><a href="/i_juegos/1_sprites.html">Sprites</a></p></li>
-              <li><p><a href="/i_juegos/2_anima_horizontal.html">Animación horizontal</a></p></li>
-              <li><p><a href="/i_juegos/3_anima_recta.html">Animación recta</a></p></li>
-              <li><p><a href="/i_juegos/4_ondula.html">Ondula</a></p></li>
-              <li><p><a href="/i_juegos/5_gira.html">Gira</a></p></li>
-              <li><p><a href="/i_juegos/6_mueve_botones.html">Mueve con botones</a></p></li>
-              <li><p><a href="/i_juegos/7_choques.html">Detecta colisiones</a></p></li>
-              <li><p><a href="/i_juegos/8_sonrie.html">Haz algo si chocas</a></p></li>
-              <li><p><a href="/i_juegos/9_mueve_aleatorio.html">Que se mueva como quiera</a></p></li>
-              <li><p><a href="/i_juegos/10_custom.html">Custom elements</a></p></li>
-              <li><p><a href="/i_juegos/11_asociaciones.html">Asociaciones</a></p></li>
-              <li><p><a href="/i_juegos/12_polimorfismo.html">Polimorfismo</a></p></li>
+              <li><p><a href="/k_juegos/1_sprites.html">Sprites</a></p></li>
+              <li><p><a href="/k_juegos/2_anima_horizontal.html">Animación horizontal</a></p></li>
+              <li><p><a href="/k_juegos/3_anima_recta.html">Animación recta</a></p></li>
+              <li><p><a href="/k_juegos/4_ondula.html">Ondula</a></p></li>
+              <li><p><a href="/k_juegos/5_gira.html">Gira</a></p></li>
+              <li><p><a href="/k_juegos/6_mueve_botones.html">Mueve con botones</a></p></li>
+              <li><p><a href="/k_juegos/7_choques.html">Detecta colisiones</a></p></li>
+              <li><p><a href="/k_juegos/8_sonrie.html">Haz algo si chocas</a></p></li>
+              <li><p><a href="/k_juegos/9_mueve_aleatorio.html">Que se mueva como quiera</a></p></li>
+              <li><p><a href="/k_juegos/10_custom.html">Custom elements</a></p></li>
+              <li><p><a href="/k_juegos/11_asociaciones.html">Asociaciones</a></p></li>
+              <li><p><a href="/k_juegos/12_polimorfismo.html">Polimorfismo</a></p></li>
             </ol>
           </details>
         </li>
@@ -262,8 +342,8 @@ export class MiNav extends HTMLElement {
               <h3>Adornos</h3>
             </summary>
             <ol>
-              <li><p><a href="/j_adornos/1_recta.html">Adorno horizontal</a></p></li>
-              <li><p><a href="/j_adornos/2_espiral.html">Adorno en espiral</a></p></li>
+              <li><p><a href="/l_adornos/1_recta.html">Adorno horizontal</a></p></li>
+              <li><p><a href="/l_adornos/2_espiral.html">Adorno en espiral</a></p></li>
             </ol>
           </details>
         </li>
