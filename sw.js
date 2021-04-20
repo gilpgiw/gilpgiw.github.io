@@ -24,6 +24,7 @@ const ARCHIVOS = [
   "c_html/1_SGML.html",
   "c_html/20_footer.html",
   "c_html/21_referencias.html",
+  "c_html/22_manos.html",
   "c_html/22_resumen.html",
   "c_html/2_comentarios.html",
   "c_html/3_doctype.html",
